@@ -48,9 +48,7 @@ if [ $? -eq 0 ]; then
 "
 else
     # Jika speedtest gagal, maka mengirimkan pesan notifikasi
-    MSG="SERVER RUSAK MEK
-BTS AMPAS GAUSAH BELAGU
-KOCOK AJA TUH KONTOL"
+    MSG="SPEEDTEST GAGAL COBA LAGI"
 fi
 
 # Mengirim pesan ke akun Telegram pribadi
