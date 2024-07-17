@@ -113,7 +113,6 @@ service edy enable
 ##### START BOT 🚀
 
 ```
-tmux
 service edy start
 
 ```
