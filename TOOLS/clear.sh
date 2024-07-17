@@ -43,3 +43,4 @@ $ram_status
 
 # Mengirim pesan ke akun Telegram pribadi
 curl -F "chat_id=$CHAT_ID" -F "caption=$MSG" \
+https://api.telegram.org/bot$BOT_TOKEN/sendphoto
