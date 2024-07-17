@@ -22,7 +22,6 @@ get_daily_bandwidth() {
 └ UPLOAD: $upload
 └ TOTAL: $total
 └ DATE: $(date +'%d-%m-%Y %I:%M %p')
-└ CHECKED BY EDY DEVELOPER
 "
 }
 
