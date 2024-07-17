@@ -9,7 +9,7 @@ import datetime
 import random
 
 # Membaca token dan chat ID admin dari berkas token.txt
-with open('/root/TgBotWRT/AUTH', 'r') as token_file:
+with open('/root/TeleWRT/AUTH', 'r') as token_file:
     lines = token_file.readlines()
     if len(lines) >= 2:
         TOKEN = lines[0].strip()
@@ -22,13 +22,13 @@ with open('/root/TgBotWRT/AUTH', 'r') as token_file:
 admins = set([USER_ID])
 
 # Lokasi file penanda (semaphore) untuk berhenti
-STOP_BOT = '/root/TgBotWRT/stop.sh'
+STOP_BOT = '/root/TeleWRT/stop.sh'
 
 # Lokasi file cmd
-CMD_FILE_PATH = '/root/TgBotWRT/cmd'
+CMD_FILE_PATH = '/root/TeleWRT/cmd'
 
 # URL untuk mengambil menu dari Folder /root
-MENU_FILE_PATH = '/root/TgBotWRT/menu'
+MENU_FILE_PATH = '/root/TeleWRT/menu'
 
 # Waktu interval untuk memeriksa perubahan cmd (dalam detik)
 RELOAD_INTERVAL = 600  # Ini akan memeriksa setiap 10 menit
