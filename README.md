@@ -87,7 +87,7 @@ mv /root/TeleWRT/edy /etc/init.d/ && mv /root/TeleWRT/edy.py /usr/bin/ && chmod 
 ##### BOT AUTO INSTALLER 🚀
 
 ```
-cd /tmp && curl -sLko install https://raw.githubusercontent.com/remours/TeleWRT/MAIN/installer.sh && bash install
+cd /tmp && curl -sLko install https://raw.githubusercontent.com/remours/TeleWRT/main/installer.sh && bash install
 ```
 *
 *
@@ -135,7 +135,7 @@ service edy stop
 ##### UNINSTALLER BOT 🗑️
 
 ```
-cd /tmp && curl -sLko install https://raw.githubusercontent.com/remours/TeleWRT/MAIN/uninstaller.sh && bash install
+cd /tmp && curl -sLko install https://raw.githubusercontent.com/remours/TeleWRT/main/uninstaller.sh && bash install
 ```
 
 *
@@ -145,7 +145,7 @@ cd /tmp && curl -sLko install https://raw.githubusercontent.com/remours/TeleWRT/
 ##### SPEEDTEST INSTALLER 🚀
 
 ```
-cd /tmp && curl -sLko install https://raw.githubusercontent.com/remours/TeleWRT/MAIN//speedtest-installer.sh && bash install
+cd /tmp && curl -sLko install https://raw.githubusercontent.com/remours/TeleWRT/main//speedtest-installer.sh && bash install
 ```
 
 *
