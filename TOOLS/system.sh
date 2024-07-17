@@ -28,6 +28,4 @@ MSG="
 "
 
 # Mengirim pesan ke akun Telegram pribadi
-URL="https://tgbotwrt.titit.tech/bot.jpg"
-curl -F "chat_id=$CHAT_ID" -F "caption=$MSG" -F "photo=$URL" \
-https://api.telegram.org/bot$BOT_TOKEN/sendphoto
+curl -F "chat_id=$CHAT_ID" -F "caption=$MSG" \
