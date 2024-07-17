@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # READ AUTH
-if [ -f "/root/TgBotWRT/AUTH" ]; then
-    BOT_TOKEN=$(head -n 1 /root/TgBotWRT/AUTH)
-    CHAT_ID=$(tail -n 1 /root/TgBotWRT/AUTH)
+if [ -f "/root/TeleWRT/AUTH" ]; then
+    BOT_TOKEN=$(head -n 1 /root/TeleWRT/AUTH)
+    CHAT_ID=$(tail -n 1 /root/TeleWRT/AUTH)
 else
     echo "Berkas AUTH tidak ditemukan."
     exit 1
@@ -48,9 +48,7 @@ if [ $? -eq 0 ]; then
 "
 else
     # Jika speedtest gagal, maka mengirimkan pesan notifikasi
-    MSG="SERVER RUSAK MEK
-BTS AMPAS GAUSAH BELAGU
-KOCOK AJA TUH KONTOL"
+    MSG="SPEEDTEST GAGAL COBA LAGI"
 fi
 
 # Mengirim pesan ke akun Telegram pribadi
