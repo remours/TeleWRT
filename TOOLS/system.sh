@@ -24,7 +24,6 @@ MSG="
 └ Temp: $(awk '{printf "%.2f°C\n", $1/1000}' /sys/class/thermal/thermal_zone0/temp)
 └ Load Average: $(awk '{printf "%.0f%%", $1 * 100}' /proc/loadavg)
 └ CPU: $(mpstat 1 1 | tail -n 1 | awk '{printf "%.2f%%", 100 - $NF}')
-└ CHECKED BY EDY DEVELOPER
 "
 
 # Mengirim pesan ke akun Telegram pribadi
