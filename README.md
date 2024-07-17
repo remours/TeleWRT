@@ -114,7 +114,6 @@ service edy enable
 
 ```
 service edy start
-
 ```
 
 ##### RESTART BOT ♻️
