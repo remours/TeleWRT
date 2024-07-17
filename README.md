@@ -74,26 +74,26 @@ opkg list-installed | grep python3 && pip3 list
 ##### CLONE REPO
 
 ```
-git clone -b SCRIPT https://github.com/EdyDevz/TgBotWRT
+git clone -b SCRIPT https://github.com/remours/TeleWRT
 ```
 
 ##### MOVE ALL SCRIPT
 
 ```
-mv /root/TgBotWRT/edy /etc/init.d/ && mv /root/TgBotWRT/edy.py /usr/bin/ && chmod +x /usr/bin/edy.py && chmod +x /etc/init.d/edy && chmod +x /root/TgBotWRT/*
+mv /root/TeleWRT/edy /etc/init.d/ && mv /root/TeleWRT/edy.py /usr/bin/ && chmod +x /usr/bin/edy.py && chmod +x /etc/init.d/edy && chmod +x /root/TeleWRT/*
 ```
 *
 *
 ##### BOT AUTO INSTALLER 🚀
 
 ```
-cd /tmp && curl -sLko install https://raw.githubusercontent.com/EdyDevz/TgBotWRT/main/installer.sh && bash install
+cd /tmp && curl -sLko install https://raw.githubusercontent.com/remours/TeleWRT/MAIN/installer.sh && bash install
 ```
 *
 *
 ##### EDIT AUTH ADMIN & BOT
 ```
-nano /root/TgBotWRT/AUTH
+nano /root/TeleWRT/AUTH
 ```
 *
 *
@@ -135,7 +135,7 @@ service edy stop
 ##### UNINSTALLER BOT 🗑️
 
 ```
-cd /tmp && curl -sLko install https://raw.githubusercontent.com/EdyDevz/TgBotWRT/main/uninstaller.sh && bash install
+cd /tmp && curl -sLko install https://raw.githubusercontent.com/remours/TeleWRT/MAIN/uninstaller.sh && bash install
 ```
 
 *
@@ -145,7 +145,7 @@ cd /tmp && curl -sLko install https://raw.githubusercontent.com/EdyDevz/TgBotWRT
 ##### SPEEDTEST INSTALLER 🚀
 
 ```
-cd /tmp && curl -sLko install https://raw.githubusercontent.com/EdyDevz/TgBotWRT/main/speedtest-installer.sh && bash install
+cd /tmp && curl -sLko install https://raw.githubusercontent.com/remours/TeleWRT/MAIN//speedtest-installer.sh && bash install
 ```
 
 *
