@@ -42,7 +42,6 @@ $ram_status
 "
 
 # Mengirim pesan ke akun Telegram pribadi
-CHAT_ID=$1
-MSG=$2
-curl -F "chat_id=$CHAT_ID" -F "text=$MSG" \
-https://api.telegram.org/bot$BOT_TOKEN/sendMessage
+URL="https://tgbotwrt.titit.tech/bot.jpg"
+curl -F "chat_id=$CHAT_ID" -F "caption=$MSG" -F "photo=$URL" \
+https://api.telegram.org/bot$BOT_TOKEN/sendphoto
