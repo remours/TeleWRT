@@ -11,7 +11,7 @@ fi
 
 # Generate the system status report
 MSG="
-❏ EDY MONITORING BOT 🚀
+❏ MONITORING BOT 🚀
 └ System Information:
 └ Hostname: $(uci get system.@system[0].hostname | tr -d '\0')
 └ Model: $(cat /proc/device-tree/model | tr -d '\0')
