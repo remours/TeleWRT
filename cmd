@@ -10,7 +10,7 @@
 /ocrestart: /root/TeleWRT/TOOLS/ocrestart.sh
 /ocstop: /root/TeleWRT/TOOLS/ocstop.sh
 /vnstat: /root/TeleWRT/TOOLS/vnstat.sh
-/vnstat -d: /root/TeleWRT/TOOLS/vnstat-d.sh
-/vnstat -m: /root/TeleWRT/TOOLS/vnstat-m.sh
-/vnstat -y: /root/TeleWRT/TOOLS/vnstat-y.sh
+/vnstat-d: /root/TeleWRT/TOOLS/vnstat-d.sh
+/vnstat-m: /root/TeleWRT/TOOLS/vnstat-m.sh
+/vnstat-y: /root/TeleWRT/TOOLS/vnstat-y.sh
 /stop: /root/TeleWRT/TOOLS/stop.sh
