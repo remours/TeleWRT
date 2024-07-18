@@ -1,6 +1,6 @@
 #!/bin/bash
 
-service restart
+service edy restart
 
 # READ AUTH
 if [ -f "/root/TeleWRT/AUTH" ]; then
